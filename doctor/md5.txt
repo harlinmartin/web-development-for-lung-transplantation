@@ -1,0 +1,50 @@
+INSERT INTO doctor VALUES (1,'alan@gmail.com', MD5('newuserpassword'),'newuser'); 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('image.jpg'); /* Replace 'image.jpg' with your image path */
+            background-size: cover;
+            background-position: top right;
+            height: 300px; /* Adjust the height as needed */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .patient-info {
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- You can place your image content here -->
+    </header>
+    <div class="container">
+        <div class="patient-info">
+            <h2>Name: John Doe</h2>
+            <p>Date of Birth: January 1, 1990</p>
+            <p>Cause of Death: Heart Attack</p>
+            <p>Recent Chest X-ray:</p>
+            <img src="xray.jpg" alt="Chest X

@@ -1,0 +1,15 @@
+ echo "<div class='profile-info'><span class='label'>Name:</span> " . $row['name'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Date of Birth:</span> " . $row['date_of_birth'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Cause of death :</span> " . $row['cause_of_death '] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Lung size:</span> " . $row['lung_size'] . "</div>";
+                echo "<div class='profile-info'><span class='label'> Blood type:</span> " . $row['blood_type'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Recent Chest X-ray:</span> <img src='images/" . $row['chest_xray'] . "' style='max-width: 150px; max-height: 150px;'></div>";
+                echo "<div class='profile-info'><span class='label'>Computed tomography scan:</span> <img src='images/" . $row['tomography_scan'] . "' style='max-width: 150px; max-height: 150px;'></div>";
+                echo "<div class='profile-info'><span class='label'>Bronchoscopy:</span> <img src='images/"  . $row['bronchoscopy'].  "' style='max-width: 150px; max-height: 150px;'></div>";
+                echo "<div class='profile-info'><span class='label'>Sputum cultureS :</span> " . $row['sputum_culture '] . "</div>";
+                echo "<div class='profile-info'><span class='label'>PO2/FiO<sub>2</sub>:</span> " . $row['pf_ratio'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Cigarette smoking history:</span> " . $row['cigarette_history'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Absence of chest trauma:</span> " . $row['chest_trauma'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Image:</span>  <img src='images/" . $row["image"] . "' style='max-width: 150px; max-height: 150px;'></div>";
+                echo "<div class='profile-info'><span class='label'>Admitted Hospital:</span> " . $row['hospital'] . "</div>";
+                echo "<div class='profile-info'><span class='label'>Travel duration:</span> " . $row['travel_duration'] . "</div>";
